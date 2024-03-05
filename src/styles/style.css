@@ -63,8 +63,9 @@ span{
     position: absolute;
     top: 123px ;
     left: 171px;
-    height: 423px;
+    
     display: flex;
+    flex-direction: column;
 }
 
 #description{
@@ -79,5 +80,39 @@ span{
     color: #ABB2BF;
     font-size: 16px;
     padding-top: 20px;
+}
+
+#projects{
+    margin-top: 150px;
+    color: #fff;
+    font-size: 32px;
+    display: flex;
+}
+
+#title{
+    display: flex;
+    height: 42px;
+}
+#line{
+    height: 1px;
+    width: 500px;
+    background-color: #C778DD;
+    margin-top: 22px;
+    margin-left: 10px;
+    
+}
+
+#view{
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 150px;
+}
+
+.block{
+    border:2px solid #fff;
+    width: 91px;
+    height: 91px;
+    margin-left: 336px;
+    
 }
 
