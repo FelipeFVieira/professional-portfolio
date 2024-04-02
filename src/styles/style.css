@@ -248,3 +248,22 @@ span{
     align-items: center;
     gap: 10px;
 }
+
+footer{
+    border-top: 1px solid #ABB2BF;
+    margin-top: 100px;
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-around;
+    gap:550px;
+    color: white;
+}
+
+#name-footer{
+    display: flex;
+    gap: 10px;
+}
+
+#media-footer{
+    font-size: 20px;
+}
