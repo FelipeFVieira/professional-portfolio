@@ -210,6 +210,8 @@ span{
     display: flex;
     gap: 50px;
     margin-top: 20px;
+    width: 60%;
+    flex-wrap: wrap;
 }
 
 .text{
@@ -223,17 +225,26 @@ span{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-right: 450px;
+    padding-right: 250px;
+    gap:80px;
 }
 
 .ten-points{
-    width: 40px;
+    width: 60px;
     color: #fff;
     font-size: 20px;
 }
 
 #contact-platforms{
-
+    color: #ABB2BF;
     border: 1px solid #ABB2BF;
-    
+    display: inline-block;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.platforms{
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
