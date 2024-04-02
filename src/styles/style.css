@@ -10,7 +10,7 @@ body {
     width: 100%;
     font-family: "Fira Code", monospace;
     background-color: #282C33;
-    height: 3192px;
+    
 }
 
 h1{
@@ -39,15 +39,14 @@ section{
 
 nav{
     display: flex;
-    gap: 10px;
+    gap: 70px;
     justify-content: flex-end;
 
 }
 
-main{
+#container{
     height: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
 }
@@ -65,7 +64,6 @@ footer{
 }
 
 a{
-    padding: 19px 30px;
     text-decoration: none;
     font-weight: bold;
     color: #ABB2BF;
@@ -113,15 +111,6 @@ span{
     margin-left: 150px;
 }
 
-.block{
-    border-bottom:2px solid #fff;
-    border-top:2px solid #fff;
-    border-left:2px solid #fff;
-    width: 91px;
-    height: 91px;
-    display: flex;
-    justify-content: flex-end;
-}
 
 .project{
     width: 330px;
@@ -134,11 +123,12 @@ span{
     display: flex;
     justify-content: space-around;
     gap: 15px;
+    margin-top: 50px;
 
 }
 .titles{
     color: #fff;
-    font-size: 32px;
+    font-size: 20px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -181,4 +171,69 @@ span{
 .points{
     width: 91px;
     height: 91px;
+}
+
+.skills-table{
+    width: 178px;
+    border: 1px solid #ABB2BF ;
+    justify-content: center;
+}
+
+.skills-title{
+    
+    color: #fff;
+    font-size: 14px;
+    margin: 8px;
+}
+
+.skills-body{
+    border-top: 1px solid #ABB2BF;
+
+}
+
+.list{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin: 5px;
+}
+
+.list-items{
+    border: 1px solid #C778DD;
+    display: inline-block;
+    font-size: 12px;
+    padding: 3px;
+}
+
+#skills{
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.text{
+    width: 80%;
+    color: #ABB2BF;
+
+}
+
+#div-contacts{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 450px;
+}
+
+.ten-points{
+    width: 40px;
+    color: #fff;
+    font-size: 20px;
+}
+
+#contact-platforms{
+
+    border: 1px solid #ABB2BF;
+    
 }
